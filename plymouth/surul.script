@@ -1,0 +1,39 @@
+# Surul Plymouth Script
+
+# Background: #080A0D
+Window.SetBackgroundTopColor(0.03137, 0.03922, 0.05098);
+Window.SetBackgroundBottomColor(0.03137, 0.03922, 0.05098);
+
+# Screen dimensions
+screen.w = Window.GetWidth(0);
+screen.h = Window.GetHeight(0);
+
+# Load animation frames: frame_35.png to frame_2.png
+totalImages = 35;
+
+for (i = 0; i < (totalImages - 1); i++) {
+    frames[i] = Image("frame_" + (totalImages - i) + ".png");
+}
+
+# Final static image
+finalImage = Image("frame.png");
+
+# Create sprite and center it
+surulSprite = Sprite();
+surulSprite.SetX(Window.GetX() + (screen.w / 2 - finalImage.GetWidth() / 2));
+surulSprite.SetY(Window.GetY() + (screen.h / 2 - finalImage.GetHeight() / 2));
+
+# Animation state
+progress = 0;
+
+fun refreshCallback()
+{
+    if (progress < 300) {
+        surulSprite.SetImage(frames[Math.Int(progress / 3)]);
+        progress++;
+    } else {
+        surulSprite.SetImage(finalImage);
+    }
+}
+
+Plymouth.SetRefreshFunction(refreshCallback);

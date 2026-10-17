@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=Surul
+Comment=Created by madhanmaaz
+Description=Surul animated boot theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/surul
+ScriptFile=/usr/share/plymouth/themes/surul/surul.script

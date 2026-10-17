@@ -1,0 +1,44 @@
+```
+palette/
+accent: #A80030
+
+dark/
+bg: #080A0D
+text: #C2C9CF
+logo: #929DA6
+wave1: #59636C
+wave2: #3A4249
+wave3: #272E34
+wave4: #1A1F24
+wave5: #111519
+
+linear_bg: bg/wave5
+forky_wallpaper_linear_bg: wave4/bg
+
+light/
+bg: #D4D7DA
+text: #343B42
+logo: #505B64
+wave1: #646F78
+wave2: #7D878F
+wave3: #969EA5
+wave4: #AEB4B9
+wave5: #C2C6CA
+
+linear_bg: bg/wave5
+forky_wallpaper_linear_bg: wave4/bg
+```
+
+#### Size and position (x) calculation for forky 
+
+| Wallpaper resolution | Logo (H) | Text   | Forky (H) | Logo (x) | Forky (x) |
+| -------------------- | -------- | ------ | --------- | -------- | --------- |
+| 1280 × 1024          | 237 px   | 137 px | 759 px    | 89.1     | 680       |
+| 1600 × 1200          | 278 px   | 160 px | 889 px    | 111.3    | 850       |
+| 1920 × 1080          | 250 px   | 144 px | 800 px    | 133.6    | 1020      |
+| 1920 × 1200          | 278 px   | 160 px | 889 px    | 133.6    | 1020      |
+| 2560 × 1080          | 250 px   | 144 px | 800 px    | 178.1    | 1360      |
+| 2560 × 1440          | 333 px   | 192 px | 1067 px   | 178.1    | 1360      |
+| 2560 × 1600          | 370 px   | 213 px | 1185 px   | 178.1    | 1360      |
+| 2560 × 2048          | 474 px   | 273 px | 1517 px   | 178.1    | 1360      |
+| 3840 × 2160          | 500 px   | 288 px | 1600 px   | 267.2    | 2040      |
