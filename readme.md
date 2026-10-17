@@ -5,7 +5,8 @@ A Debian 14 (Forky) artwork concept by Madhan (Madhanmaaz)
 
 **Surul** (சுருள்) is a Tamil-inspired name meaning *curl* or *coil*, reflecting the flowing spiral of the Debian logo.
 
-The artwork combines a deep graphite background, layered steel-grey waves, and a silver Debian swirl. A Debian-red variation adds a restrained accent. The goal is a cohesive, minimal visual identity for Debian 14.
+1. A Forky-inspired design.
+2. A deep graphite background with layered steel-grey waves and a silver Debian swirl.
 
 #### Software & Utilities
 - **Lunacy** - https://icons8.com/lunacy-download
